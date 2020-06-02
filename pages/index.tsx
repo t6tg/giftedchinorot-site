@@ -1,3 +1,7 @@
-export default function index() {
+import React, { ReactElement } from "react";
+
+interface Props {}
+
+export default function index({}: Props): ReactElement {
   return <div>Hello World</div>;
 }
