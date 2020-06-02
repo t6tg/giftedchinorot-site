@@ -1,13 +1,14 @@
 import React, { ReactElement } from "react";
+import Layout from "../components/layout";
 
 interface Props {}
 
 export default function index({}: Props): ReactElement {
   return (
     <div>
-      <button className="bg-blue-500 py-2 rounded-md text-white px-4">
-        Click Me!
-      </button>
+      <Layout>
+        <div></div>
+      </Layout>
     </div>
   );
 }
